@@ -1,105 +1,116 @@
-<h1>Rhythm Mixer</h1>
-<section class="selector">
-  <input name="A" id="0" type="checkbox">
-  <label for="0">
-    <div class="option">
-      <div class="header">
-        A
-      </div>
-      <div class="music">
-        2X=È=
-      </div>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rhythm Mixer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="source.css">
+  </head>
+  <body>
+    <h1>Rhythm Mixer</h1>
+    <section class="selector">
+      <input name="A" id="0" type="checkbox">
+      <label for="0">
+        <div class="option">
+          <div class="header">
+            A
+          </div>
+          <div class="music">
+            2X=È=
+          </div>
+        </div>
+      </label>
+      <input name="B" id="1" type="checkbox">
+      <label for="1">
+        <div class="option">
+          <div class="header">
+            B
+          </div>
+          <div class="music">
+            2X==X==
+          </div>
+        </div>
+      </label>
+      <input name="C" id="2" type="checkbox">
+      <label for="2">
+        <div class="option">
+          <div class="header">
+            C
+          </div>
+          <div class="music">
+            2È=È=
+          </div>
+        </div>
+      </label>
+      <input name="D" id="3" type="checkbox">
+      <label for="3">
+        <div class="option">
+          <div class="header">
+            D
+          </div>
+          <div class="music">
+            2H=X¹==
+          </div>
+        </div>
+      </label>
+      <input name="E" id="4" type="checkbox">
+      <label for="4">
+        <div class="option">
+          <div class="header">
+            E
+          </div>
+          <div class="music">
+            2H=X==H=
+          </div>
+        </div>
+      </label>
+      <input name="F" id="5" type="checkbox">
+      <label for="5">
+        <div class="option">
+          <div class="header">
+            F
+          </div>
+          <div class="music">
+            2X¹==H=
+          </div>
+        </div>
+      </label>
+      <input name="G" id="6" type="checkbox">
+      <label for="6">
+        <div class="option">
+          <div class="header">
+            G
+          </div>
+          <div class="music">
+            2È=È=
+          </div>
+        </div>
+      </label>
+      <input name="H" id="7" type="checkbox">
+      <label for="7">
+        <div class="option">
+          <div class="header">
+            H
+          </div>
+          <div class="music">
+            2È=X==
+          </div>
+        </div>
+      </label>
+    </section>
+    <section class="buttons">
+      <button type="button" id="reset" disabled>
+        Reset
+      </button>
+      <button type="button" id="randomize">
+        Randomize
+      </button>
+      <button type="button" id="mix" disabled>
+        Mix!
+      </button>
+    </section>
+    <div id="output">
+      Select some music segments and click Mix!
     </div>
-  </label>
-  <input name="B" id="1" type="checkbox">
-  <label for="1">
-    <div class="option">
-      <div class="header">
-        B
-      </div>
-      <div class="music">
-        2X==X==
-      </div>
-    </div>
-  </label>
-  <input name="C" id="2" type="checkbox">
-  <label for="2">
-    <div class="option">
-      <div class="header">
-        C
-      </div>
-      <div class="music">
-        2È=È=
-      </div>
-    </div>
-  </label>
-  <input name="D" id="3" type="checkbox">
-  <label for="3">
-    <div class="option">
-      <div class="header">
-        D
-      </div>
-      <div class="music">
-        2H=X¹==
-      </div>
-    </div>
-  </label>
-  <input name="E" id="4" type="checkbox">
-  <label for="4">
-    <div class="option">
-      <div class="header">
-        E
-      </div>
-      <div class="music">
-        2H=X==H=
-      </div>
-    </div>
-  </label>
-  <input name="F" id="5" type="checkbox">
-  <label for="5">
-    <div class="option">
-      <div class="header">
-        F
-      </div>
-      <div class="music">
-        2X¹==H=
-      </div>
-    </div>
-  </label>
-  <input name="G" id="6" type="checkbox">
-  <label for="6">
-    <div class="option">
-      <div class="header">
-        G
-      </div>
-      <div class="music">
-        2È=È=
-      </div>
-    </div>
-  </label>
-  <input name="H" id="7" type="checkbox">
-  <label for="7">
-    <div class="option">
-      <div class="header">
-        H
-      </div>
-      <div class="music">
-        2È=X==
-      </div>
-    </div>
-  </label>
-</section>
-<section class="buttons">
-  <button type="button" id="reset" disabled>
-    Reset
-  </button>
-  <button type="button" id="randomize">
-    Randomize
-  </button>
-  <button type="button" id="mix" disabled>
-    Mix!
-  </button>
-</section>
-<div id="output">
-  Select some music segments and click Mix!
-</div>
+  </body>
+</html>
